@@ -16,7 +16,7 @@ div {
   border-radius:  18.2px;
   border: 1px solid #c10f0f;
   background-image: linear-gradient(130deg, rgb(250, 17, 17) 30%, rgb(174, 20, 20) 100%);
-  box-shadow: 1.5px 1.5px 9px black,inset -1px -1px 5px black, inset 2px 2px 5px white;
+  box-shadow: 1.5px 1.5px 9px black,inset -1px -1px 5.1px black, inset 2px 2px 5px white;
 
 
 }
