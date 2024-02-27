@@ -21,17 +21,24 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   nav {
     background-color: #000;
-    padding: .5em;
+    padding: 0.5em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
   
   nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
   
   nav a {
@@ -44,8 +51,15 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, mimax(200px, 1fr));
+    gap: 1px;
   }
 
   .feature {
       width: 200px;
+  }
+
+  article {
+    flex: 1;
   }
