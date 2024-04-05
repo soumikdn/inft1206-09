@@ -20,18 +20,20 @@ function result() {
     const yitem = randomValueFromArray(insertY);
     const zitem = randomValueFromArray(insertZ);
 
-    newstory = newstory.replaceAll(":insertx:", xitem)
-    newstory = newstory.replaceAll(":inserty:", yitem)
-    newstory = newstory.replaceAll(":insertz:", zitem)
+    newstory = newstory.replaceAll(":insertx:", xitem);
+    newstory = newstory.replaceAll(":inserty:", yitem);
+    newstory = newstory.replaceAll(":insertz:", zitem);
 
   if(customName.value !== '') {
     const name = customName.value;
+    newstory = newstory.replace("Bob", name);
 
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+    const weight = '${Math.round(300/ 14)} stone';
+    const temperature = '$Math.round(94-32) *(5/)} centigrade' ;
+    newstory 
 
   }
 
