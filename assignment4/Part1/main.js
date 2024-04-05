@@ -21,8 +21,8 @@ function result() {
     const zitem = randomValueFromArray(insertZ);
 
     newstory = newstory.replaceAll(":insertx:", xitem)
-    newstory = newstory.replaceAll("", yitem)
-    newstory = newstory.replaceAll("", zitem)
+    newstory = newstory.replaceAll(":inserty:", yitem)
+    newstory = newstory.replaceAll(":insertz:", zitem)
 
   if(customName.value !== '') {
     const name = customName.value;
