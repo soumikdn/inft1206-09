@@ -34,6 +34,8 @@ btn.addEventListener("click", () => {
         btn.textContent = "Lighten";
         overlay.style.backgroundColor = "rgba(0,0,0,1)";
     }
+
+    else
  {
         btn.setAttribute("class", "dark");
         btn.textContent ="darken";
